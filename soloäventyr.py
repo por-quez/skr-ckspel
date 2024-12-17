@@ -1,7 +1,7 @@
 import random
 
 print("Welcome to the solo adventure, Slitherin escapees!\nHow would you like to proceed?")
-int(input("1. "))
+print("1. Play\n2. ")
 
 player_health = 100
 
