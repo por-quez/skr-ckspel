@@ -31,3 +31,21 @@ def options_def():
     return "1. Sound\n2. Text size\n3. Gore"
 
 options = print(options_def())
+
+#Quit
+def quit():
+    ChildProcessError
+
+#Menu2
+
+
+#Inventory
+inventory = {}
+
+#Inventory function
+if inventory:
+    print("\nDu bär just nu på:")
+    for föremål, beskrivning in inventory.item():
+        print(f"- {föremål.capitalize()} ({beskrivning})")
+else:
+    print("\nDu har inga föremål.")
