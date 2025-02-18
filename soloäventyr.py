@@ -10,7 +10,7 @@ menuopt = int(input())
 #Start Menu
 if menuopt == 1:
 
-    print(menu2)
+    print(game_extract())
 
 elif menuopt == 2:
 
@@ -23,8 +23,6 @@ elif menuopt == 3:
 #Game Menu
 def game_extract():
     return "1. New Game\n2. Continue\n. Tutorial"
-
-menu2 = print(game_extract())
 
 #Options
 def options_def():
